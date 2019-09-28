@@ -1,0 +1,53 @@
+Q) Describe the most difficult hurdle you had to overcome in implementing your solution.
+
+A) I've set up plenty of Jenkins servers on Ubuntu before so the task itself wasn't too difficult.
+   With products such as Jenkins the use of built-in package managers such as 'apt' and 'yum' 
+   makes it very easy to automate the installation. 
+   
+   However, working with enterprise software installation is very complex and time consuming 
+   even when trying to automate the activity.
+   
+   On reflection on this task I would say the most difficult hurdle was deciding on which of the
+   many approaches I could have taken would satisfy the requirements.
+
+   I chose to use containerisation of Jenkins and traditional bash scripts for this exercise knowing
+   the complexity of standing up Jenkins. I could have performed the automation on bare-metal
+   or virtual servers but majority of my customers today are moving to containerisation platforms
+   for the target architectures both on-premise and public cloud platforms.
+---
+
+Q) Please explain why requirement (d) above is important.
+
+A) Automation activities requires 100% idempotent behaviour for predictable outcomes.
+   If a automation script or tools fails upredictably the consequencies can be untold,
+   in certain circumstances even life threatening or have major disruption to businesses.
+   Both small and large scale infrustructure and software architectures today contain 100s
+   and even 1000s of individual software components that must be accurately configured for
+   the entire solution stack to work. The complexity of such systems today demands the need
+   for automation tooling such as Puppet to assist engineers and architects to deliver solid
+   and predictable behaviour to be successful.
+
+Q) Where did you go to find information to help you?
+
+A) Generally I use vendor product documentation. Google helps if you know what you're looking for.
+
+--- 
+
+Q) Briefly explain what automation means to you, and why it is important to an organization's 
+   infrastructure design strategy.
+
+A) Automation is the activity where repeatable outcomes can be achieved at scale and velocity
+   required for todays' complex architectural software landscapes. For modern organisations
+   trying to embrace digital and agile SDLC practices there has to be underpining of automation
+   best practices driven through agile/devops. 
+   
+   Automation is the ultimate need for DevOps practices. Digital transormation of businesses
+   goes with DevOps and agile practices. It is this need for pace that only automation solves.
+   The entire DevOps pipeline today relies on continous integration, continous testing, and
+   continous deployment via automation.
+
+   IaaC solutions such as Puppet allow infrastructure and software architects to achieve DevOps.
+   
+   Without automation, DevOps is unachievable. 
+
+
