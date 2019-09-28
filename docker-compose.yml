@@ -1,0 +1,10 @@
+master:
+  build: .
+  container_name: puppet_jenkins
+  environment:
+    JAVA_OPTS: "-Djava.awt.headless=true"
+  ports:
+    - "50000:50000"
+    - "8000:8000"
+  volumes:
+    - /var/jenkins_home
