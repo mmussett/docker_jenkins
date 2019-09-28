@@ -1,6 +1,14 @@
 #! /bin/bash -e
+
+# Check we are root
 if [[ $EUID -ne 0 ]]; then
   echo "Thi script must be run as root"
+  exit 1
+fi
+
+# Check to see if docker is already installed
+if [[ -x "$(command -v docker)" ]]; then
+  echo "Docker already installed"
   exit 1
 fi
 
