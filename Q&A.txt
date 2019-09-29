@@ -46,7 +46,7 @@ A) Automation is the activity where repeatable outcomes can be achieved at scale
    The entire DevOps pipeline today relies on continous integration, continous testing, and
    continous deployment via automation.
 
-   IaaC solutions such as Puppet allow infrastructure and software architects to achieve DevOps.
+   IaC solutions such as Puppet allow infrastructure and software architects to achieve DevOps.
    
    Without automation, DevOps is unachievable. 
 
